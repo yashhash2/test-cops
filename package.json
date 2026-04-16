@@ -4,21 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sahiiil1406/test-cops.git"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sahiiil1406/test-cops/issues"
-  },
-  "homepage": "https://github.com/Sahiiil1406/test-cops#readme",
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+  "devDependencies": {
+    "jest": "^29.0.0"
   }
 }
